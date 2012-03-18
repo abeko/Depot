@@ -39,3 +39,12 @@ group :test do
   # Pretty printed test output
   gem 'turn', '< 0.8.3', :require => false
 end
+
+group :development do
+  gem 'hirb'
+  gem 'hirb-unicode'
+end
+
+gem 'will_paginate', '~> 3.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
+

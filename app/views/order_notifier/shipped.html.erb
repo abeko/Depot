@@ -1,0 +1,9 @@
+<h3>Pragmaticでのご注文を発送しました</h3>
+<p>
+  ご注文の商品を発送したことをお知らせいたします。
+</p>
+
+<table>
+  <tr><th colspan="2">数量</th><th>説明</th></tr>
+  <%= render @order.line_items %>
+</table>
